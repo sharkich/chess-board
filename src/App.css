@@ -25,14 +25,18 @@
 }
 
 .cell.black {
-    background: #000;
+    background: #666;
 }
 
 .cell__name {
     position: absolute;
-    top: 4px;
-    left: 4px;
-    font-size: 70%;
+    top: 0;
+    left: 2px;
+    font-size: 60%;
+}
+
+.cell.black .cell__name {
+    color: #fff;
 }
 
 .cell.white {
