@@ -4,4 +4,5 @@ import { Nullable } from '../types/fp';
 
 export interface IChessSquareWithPiece extends IChessSquare {
   piece: Nullable<IChessPiece>;
+  move(squareTo: IChessSquareWithPiece): void;
 }
