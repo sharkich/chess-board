@@ -6,4 +6,4 @@ import { ChessSquare } from '../models/ChessSquare';
 export const BOARD_SIZE = 8;
 
 export const DEFAULT_BOARD = new ChessBoard();
-DEFAULT_BOARD.addPiece(new KingChessPiece(ChessPieceColor.White), new ChessSquare(0, 4));
+DEFAULT_BOARD.addPiece(new KingChessPiece(ChessPieceColor.White), new ChessSquare(7, 4));
