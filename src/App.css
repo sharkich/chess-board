@@ -24,6 +24,14 @@
     border: 1px solid #eee;
 }
 
+.cell-with-piece {
+    cursor: pointer;
+}
+
+.cell-with-piece:hover {
+    box-shadow: 0 0 5px #666;
+}
+
 .cell.black {
     background: #666;
 }

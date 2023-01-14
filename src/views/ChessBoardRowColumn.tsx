@@ -11,9 +11,10 @@ interface Props {
 
 export const ChessBoardRowColumn: FC<Props> = ({ square }) => {
   const colorClassName = square.color === ChessSquareColor.White ? 'white' : 'black';
+  const pieceClassName = square.piece ? 'cell-with-piece' : '';
 
   return (
-    <div className={`cell ${colorClassName}`}>
+    <div className={`cell ${colorClassName} ${pieceClassName}`}>
       <div className="cell__name">{`${String.fromCharCode(65 + square.column)}${BOARD_SIZE - square.row}`}</div>
       {square.piece && (
         <div className="cell__piece">
