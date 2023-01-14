@@ -28,6 +28,13 @@
     background: #000;
 }
 
+.cell__name {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 70%;
+}
+
 .cell.white {
     background: #fff;
 }

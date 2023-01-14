@@ -1,5 +1,5 @@
+import { ChessPieceColor } from '../interfaces/ChessPieceColor';
 import { ChessBoard } from '../models/ChessBoard';
-import { ChessPieceColor } from '../models/ChessPieceColor';
 import { KingChessPiece } from '../models/ChessPieces/KingChessPiece';
 import { ChessSquare } from '../models/ChessSquare';
 

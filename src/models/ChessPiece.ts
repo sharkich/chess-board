@@ -1,4 +1,4 @@
-import { ChessPieceColor } from './ChessPieceColor';
+import { ChessPieceColor } from '../interfaces/ChessPieceColor';
 import { IChessBoardWithPieces } from '../interfaces/IChessBoardWithPieces';
 import { IChessPiece } from '../interfaces/IChessPiece';
 import { IChessSquare } from '../interfaces/IChessSquare';

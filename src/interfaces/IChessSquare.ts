@@ -1,4 +1,7 @@
+import { ChessSquareColor } from './ChessSquareColor';
+
 export interface IChessSquare {
-  row: number;
-  column: number;
+  readonly row: number;
+  readonly column: number;
+  readonly color: ChessSquareColor;
 }
