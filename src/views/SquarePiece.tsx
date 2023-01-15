@@ -10,7 +10,7 @@ interface Props {
 export const SquarePiece: FC<Props> = ({ piece }) => {
   return (
     <div className="square-piece">
-      <ChessPieceIcon pieceType={piece.pieceType} color={piece.color} />
+      <ChessPieceIcon pieceType={piece.pieceType} color={piece.color} size={58} />
     </div>
   );
 };
